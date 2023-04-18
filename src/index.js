@@ -25,8 +25,7 @@
     document.querySelector("#tasks").appendChild(list)
     
   }
-  // to remove the buttong we need to remove the todo also which 
-  // Which is the parent of the button.
+
   function deleteButton(e) {
      e.target.parentNode.remove()
   }
