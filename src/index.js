@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+
   // your code here
   document.addEventListener("DOMContentLoaded", () => {
     let form = document.querySelector("form")
@@ -31,5 +31,3 @@ document.addEventListener("DOMContentLoaded", () => {
      e.target.parentNode.remove()
   }
   
-
-});
